@@ -13,15 +13,4 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector:USB_B J?
-U 1 1 611B35D4
-P 2500 2950
-F 0 "J?" H 2557 3417 50  0000 C CNN
-F 1 "USB_B" H 2557 3326 50  0000 C CNN
-F 2 "" H 2650 2900 50  0001 C CNN
-F 3 " ~" H 2650 2900 50  0001 C CNN
-	1    2500 2950
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
