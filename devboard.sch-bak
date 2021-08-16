@@ -1,0 +1,79 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "Devboard"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:USB_B J1
+U 1 1 611B35D4
+P 2500 2950
+F 0 "J1" H 2557 3417 50  0000 C CNN
+F 1 "USB_B" H 2557 3326 50  0000 C CNN
+F 2 "" H 2650 2900 50  0001 C CNN
+F 3 " ~" H 2650 2900 50  0001 C CNN
+	1    2500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 611B8388
+P 2950 2600
+F 0 "#PWR?" H 2950 2450 50  0001 C CNN
+F 1 "+5V" H 2965 2773 50  0000 C CNN
+F 2 "" H 2950 2600 50  0001 C CNN
+F 3 "" H 2950 2600 50  0001 C CNN
+	1    2950 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 2600 2950 2750
+Wire Wire Line
+	2950 2750 2800 2750
+$Comp
+L power:GND #PWR?
+U 1 1 611B8B6D
+P 2450 3650
+F 0 "#PWR?" H 2450 3400 50  0001 C CNN
+F 1 "GND" H 2455 3477 50  0000 C CNN
+F 2 "" H 2450 3650 50  0001 C CNN
+F 3 "" H 2450 3650 50  0001 C CNN
+	1    2450 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3350 2400 3500
+Wire Wire Line
+	2400 3500 2450 3500
+Wire Wire Line
+	2450 3500 2450 3650
+Wire Wire Line
+	2500 3350 2500 3500
+Wire Wire Line
+	2500 3500 2450 3500
+Connection ~ 2450 3500
+$Comp
+L Interface_USB:FT232RL U?
+U 1 1 611B9933
+P 4300 3350
+F 0 "U?" H 4300 4531 50  0000 C CNN
+F 1 "FT232RL" H 4300 4440 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 5400 2450 50  0001 C CNN
+F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 4300 3350 50  0001 C CNN
+	1    4300 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2950 3500 2950
+Wire Wire Line
+	2800 3050 3500 3050
+$EndSCHEMATC
