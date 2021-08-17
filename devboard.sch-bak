@@ -376,4 +376,15 @@ Wire Notes Line
 	5800 4200 5800 900 
 Text Notes 1050 1200 0    118  ~ 0
 USB + Power
+$Comp
+L MCU_Microchip_ATmega:ATmega8A-PU U?
+U 1 1 611EFAA0
+P 8400 3300
+F 0 "U?" H 7950 4650 50  0000 C CNN
+F 1 "ATmega8A" H 8750 4650 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 8400 3300 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Microchip%208bit%20mcu%20AVR%20ATmega8A%20data%20sheet%2040001974A.pdf" H 8400 3300 50  0001 C CNN
+	1    8400 3300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
